@@ -64,3 +64,29 @@ LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_I
 LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies if movie not found\n" if SPELL_CHECK_REPLY else "SPELL_CHECK_REPLY Mode disabled\n")
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
+
+• /logs - to get the rescent errors
+• /stats - to get status of files in db.
+* /filter - add manual filters
+* /filters - view filters
+* /connect - connect to PM.
+* /disconnect - disconnect from PM
+* /del - delete a filter
+* /delall - delete all filters
+* /deleteall - delete all index(autofilter)
+* /delete - delete a specific file from index.
+* /batch - to create link for multiple posts
+* /link - to create link for one post
+* /info - get user info
+* /id - get tg ids.
+* /imdb - fetch info from imdb.
+• /users - to get list of my users and ids.
+• /chats - to get list of the my chats and ids 
+• /index - to add files from a channel
+• /leave - to leave from a chat.
+• /disable - do disable a chat.
+* /enable - re-enable chat.
+• /ban_users - to ban a user.
+• /unban_users - to unban a user.
+• /channel - to get list of total connected channels
+• /broadcast - to broadcast a message to all Eva Maria users
